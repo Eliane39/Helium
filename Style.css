@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(28, 27, 27);
+    color: aliceblue;
+    padding-top: 50px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px; 
+    z-index: 1000;
+    top: 0; 
+    width: 100%;
+    position: fixed;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.menu li{
+    padding-right: 200px;
+}
+section{
+    display: flex;
+    margin: 30px;
+    padding: 5px;
+}
+.droite{
+    width: 50%;
+}
+#rooter{
+    width: 100%;
+}
+.gauche{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titre{
+    font-size: 5rem;
+}
+.stitre{
+    font-size: 1.5rem;
+    color: rgb(49, 49, 200);
+
+}
+p{
+    font-size: 0,8rem;
+}
+.left{
+    text-align: center;
+    padding: 5px;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    background-color: rgb(31, 31, 185);
+    color: white;
+    border-radius: 9px;
+    height: 40px;
+    width: 150px;
+    margin: 5px;
+}
+.right{
+    width: 50%
+}
+.im {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    width: 67%;
+}
+.im img{
+    width: 80px;
+
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(27, 25, 25);
+}
+/* Responsivité
+
+   @media screen and (max-width:1030px){
+    li{
+        font-size: 0.8rem;
+    }
+      .titre{
+        font-size: 2.5rem;
+      }
+      .stitre{
+        font-size: 0.5rem;
+      }
+      #para{
+        font-size: 0.7rem;
+      }
+   } 
+   @media screen and (max-width:800px){
+      .right{
+        width: 50%;
+      }
+   }
+   @media screen and (max-width:700px){
+    li{
+        font-size: 1.5rem;
+    }
+    .titre{
+        font-size: 1.5rem;
+    }
+    .stitre{
+        font-size: 0.5rem;
+    }
+   }
+     */
